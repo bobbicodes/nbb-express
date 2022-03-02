@@ -60,7 +60,7 @@ Since I'm in Powershell my command is a bit different:
 
 Then load http://localhost:3000/
 
-Ok so already we need to back up because we did too much. Stop the server. Start an nbb REPL:
+Now we will replace `app.js` with `app.cljs`:
 
 ``` clojure
 (ns app

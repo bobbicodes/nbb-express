@@ -857,3 +857,11 @@ cljs꞉cljs.user꞉> 
 ; Evaluating file: app.cljs
 #object[Server [object Object]]
 cljs꞉app꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
