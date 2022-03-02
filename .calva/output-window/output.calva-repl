@@ -1,0 +1,605 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 58059
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+; Router.use() requires a middleware function but got a Module
+cljs꞉app꞉> 
+Example app listening on port 3000
+
+#object[Server [object Object]]
+cljs꞉app꞉> 
+; Router.use() requires a middleware function but got a Module
+cljs꞉app꞉> 
+; Could not find instance method: Router
+cljs꞉app꞉> 
+#'app/router
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 58732
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+#'app/router
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+Example app listening on port 3000
+
+#object[Server [object Object]]
+cljs꞉app꞉> 
+#js {:title "Express"}
+cljs꞉app꞉> 
+; Evaluating file: app.cljs
+#object[Server [object Object]]
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 59031
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: app.cljs
+#object[Server [object Object]]
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 59083
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: app.cljs
+#object[Server [object Object]]
+cljs꞉app꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+#'app/serve
+cljs꞉app꞉> 
+#'app/start
+cljs꞉app꞉> 
+#object[Promise [object Promise]]
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 59459
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: app.cljs
+#object[Promise [object Promise]]
+cljs꞉app꞉> 
+#'app/start
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 59553
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: app.cljs
+#object[Promise [object Promise]]
+cljs꞉app꞉> 
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 56763
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+(.send res (render-into template "main" [component-main]))
+cljs꞉app꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+; Could not resolve symbol: -.router
+cljs꞉app꞉> 
+; 'app.router' is deprecated!
+; Please see the 3.x to 4.x migration guide for details on how to update your app.
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+; Could not find static method router
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+#'app/router
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+; Cannot read properties of undefined (reading 'get')
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+; Cannot read properties of undefined (reading 'typeOf')
+cljs꞉app꞉> 
+; Cannot read properties of undefined (reading 's')
+cljs꞉app꞉> 
+router
+cljs꞉app꞉> 
+router
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+router
+cljs꞉app꞉> 
+#'app/router
+cljs꞉app꞉> 
+; Cannot read properties of undefined (reading 'get')
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+
+nil
+cljs꞉app꞉> 
+#object[app]
+
+nil
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 54626
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: app.cljs
+; Cannot read properties of undefined (reading 'get')
+; Evaluation of file app.cljs failed: TypeError: Cannot read properties of undefined (reading 'get')
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 54702
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: app.cljs
+; Could not resolve symbol: router
+; Evaluation of file app.cljs failed: #error {:message "Could not resolve symbol: router", :data {:type :sci/error, :line 8, :column 7, :file nil, :phase "analysis"}}
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 55512
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: app.cljs
+#object[Server [object Object]]
+cljs꞉app꞉> 
+3000
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 55682
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/router
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+Example app listening on port 3000
+
+#object[Server [object Object]]
+cljs꞉app꞉> 
+#object[router]
+
+nil
+cljs꞉app꞉> 
+; Could not resolve symbol: Router.get
+cljs꞉app꞉> 
+#object[router]
+
+nil
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/router
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 51615
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/router
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+Example app listening on port 3000
+
+#object[Server [object Object]]
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 51664
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/router
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+#object[router]
+cljs꞉app꞉> 
+Example app listening on port 3000
+
+#object[Server [object Object]]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 52344
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+; Router.use() requires a middleware function but got a Module
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+Example app listening on port 3000
+
+#object[Server [object Object]]
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 52633
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+Example app listening on port 3000
+
+#object[Server [object Object]]
+cljs꞉app꞉> 
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 52725
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: app.cljs
+#object[Server [object Object]]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
