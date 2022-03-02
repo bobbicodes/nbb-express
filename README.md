@@ -1,9 +1,19 @@
-Begin just like the [other one]([https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website#creating_the_project)).
+Translating from https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website#creating_the_project
+
 It assumes node/npm are installed, as well as the express application generator:
-`npm install express-generator -g`
+
+``` sh
+npm install express-generator -g
+```
+
 ## Creating the project
+
 This command will create a directory named nbb-express using the Pug template library:
-`express nbb-express --view=pug`
+
+``` sh
+express nbb-express --view=pug
+```
+
 The generator will create (and list) the project's files:
 ``` sh
 	     create : nbb-express\
@@ -41,8 +51,8 @@ Since I'm in Powershell my command is a bit different:
 	  
 	    nbb-express:server Listening on port 3000 +0ms
 ```
-Then load http://localhost:3000/:
-![image.png](../assets/image_1646230365343_0.png)
+Then load http://localhost:3000/
+
 Ok so already we need to back up because we did too much. Stop the server. Start an nbb REPL:
 ``` clojure
 	  (ns app

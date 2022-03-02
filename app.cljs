@@ -1,14 +1,17 @@
 (ns app
-  (:require ["express$default" :as express]))
+  (:require ["express$default" :as express]
+            ["path" :as path]))
 
 (def app (express))
 (def port 3000)
 
 (.set app "view engine" "pug")
 
+(.use app (.static express (.join path (.cwd js/process) "public")))
+
 (.get app "/"
       (fn [req res next]
-        (.render res "index" #js {:title "Express"})))
+        (.render res "index" #js {:title "nbb-express"})))
 
 (.get app "/users"
       (fn [req res next]
