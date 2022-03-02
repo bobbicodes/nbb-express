@@ -15,6 +15,7 @@ express nbb-express --view=pug
 ```
 
 The generator will create (and list) the project's files:
+
 ``` sh
 	     create : nbb-express\
 	     create : nbb-express\public\
@@ -43,36 +44,45 @@ The generator will create (and list) the project's files:
 	     run the app:
 	       > SET DEBUG=nbb-express:* & npm start
 ```
+
 Since I'm in Powershell my command is a bit different:
+
+``` sh
 `$ENV:DEBUG = "nbb-express:*"; npm start`
+```
+
 ``` sh
 	  > nbb-express@0.0.0 start
 	  > node ./bin/www
 	  
 	    nbb-express:server Listening on port 3000 +0ms
 ```
+
 Then load http://localhost:3000/
 
 Ok so already we need to back up because we did too much. Stop the server. Start an nbb REPL:
+
 ``` clojure
-	  (ns app
-	    (:require ["express$default" :as express]))
-	  
-	  (def app (express))
-	  (def port 3000)
-	  
-	  (.set app "view engine" "pug")
-	  
-	  (.get app "/"
-	        (fn [req res next]
-	          (.render res "index" #js {:title "Express"})))
-	  
-	  (.get app "/users"
-	        (fn [req res next]
-	          (.send res "respond with a resource")))
-	  
-	  (.listen app port
-	           (fn []
-	             (println "Example app listening on port" port)))
+(ns app
+  (:require ["express$default" :as express]
+            ["path" :as path]))
+
+(def app (express))
+(def port 3000)
+
+(.set app "view engine" "pug")
+(.use app (.static express (.join path (.cwd js/process) "public")))
+
+(.get app "/"
+      (fn [req res next]
+        (.render res "index" #js {:title "nbb-express"})))
+
+(.get app "/users"
+      (fn [req res next]
+        (.send res "respond with a resource")))
+
+(.listen app port
+         (fn [] (println "Example app listening on port" port)))
 ```
-It works, and you can even define new routes without restarting the server. Progress!
+
+It works, plus you can define new routes without restarting the server, though you can't redefine existing ones. Progress!

@@ -721,3 +721,41 @@ cljs꞉app꞉> 
 cljs꞉app꞉> 
 #object[app]
 cljs꞉app꞉> 
+; [line 3, col 26] Unsupported escape character: \'.
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/mongoDB
+cljs꞉app꞉> 
+#'app/mongoDB
+cljs꞉app꞉> 
+; Could not find instance method: connect
+cljs꞉app꞉> 
+; Could not find static method connect
+cljs꞉app꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#object[Promise [object Promise]]
+cljs꞉app꞉> 
+#object[NativeConnection [object Object]]
+cljs꞉app꞉> 
+#'app/db
+cljs꞉app꞉> 
+; Could not resolve symbol: console
+cljs꞉app꞉> 
+; Could not find instance method: bind
+cljs꞉app꞉> 
+#object[NativeConnection [object Object]]
+cljs꞉app꞉> 
