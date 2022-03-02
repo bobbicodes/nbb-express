@@ -759,3 +759,71 @@ cljs꞉app꞉> 
 cljs꞉app꞉> 
 #object[NativeConnection [object Object]]
 cljs꞉app꞉> 
+; Cannot find module 'express-validator'
+; Require stack:
+- c:\Users\porko\nbb-express\controllers\bookController.js
+- c:\Users\porko\nbb-express\routes\catalog.js
+cljs꞉app꞉> 
+; Cannot find module 'express-validator'
+; Require stack:
+- c:\Users\porko\nbb-express\controllers\bookController.js
+- c:\Users\porko\nbb-express\routes\catalog.js
+cljs꞉app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 63014
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#'app/app
+cljs꞉app꞉> 
+#'app/port
+cljs꞉app꞉> 
+#'app/mongoDB
+cljs꞉app꞉> 
+#object[Promise [object Promise]]
+cljs꞉app꞉> 
+#'app/db
+cljs꞉app꞉> 
+#object[NativeConnection [object Object]]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+; Router.use() requires a middleware function but got a Module
+cljs꞉app꞉> 
+; Router.use() requires a middleware function but got a undefined
+cljs꞉app꞉> 
+; Could not resolve symbol: router
+cljs꞉app꞉> 
+#object[qn app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+#object[app]
+cljs꞉app꞉> 
+Example app listening on port 3000
+
+#object[Server [object Object]]
+cljs꞉app꞉> 
