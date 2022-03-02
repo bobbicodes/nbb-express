@@ -2,6 +2,8 @@
   (:require ["express$default" :as express]
             ["path" :as path]
             ["mongoose$default" :as mongoose]
+            ["./routes/index$default" :as indexRouter]
+            ["./routes/users$default" :as usersRouter]
             ["./routes/catalog$default" :as catalogRouter]))
 
 (def app (express))
@@ -17,12 +19,9 @@
 (.set app "view engine" "pug")
 (.use app (.static express (.join path (.cwd js/process) "public")))
 
+(.use app "/" indexRouter)
+(.use app "/users" usersRouter)
 (.use app "/catalog" catalogRouter)
-(.get app "/" (fn [req res] (.redirect res "/catalog")))
-
-(.get app "/users"
-      (fn [req res next]
-        (.send res "respond with a resource")))
 
 (.listen app port
          (fn [] (println "Example app listening on port" port)))
